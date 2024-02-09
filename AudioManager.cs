@@ -33,7 +33,7 @@ public class AudioManager : MonoBehaviour
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        if (scene.buildIndex == 19)
+        if (scene.buildIndex == 19 || scene.buildIndex == 21)
         {
             Destroy(gameObject);
         }
